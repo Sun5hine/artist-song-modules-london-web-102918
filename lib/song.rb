@@ -2,8 +2,8 @@ require 'pry'
 
 class Song
   
-  extend reset_all::ClassMethods
-  extend count::ClassMethods
+  extend Memorable::ClassMethods
+  
   
   attr_accessor :name
   attr_reader :artist
